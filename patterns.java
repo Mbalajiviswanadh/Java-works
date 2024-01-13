@@ -116,6 +116,27 @@ public class patterns {
             System.out.println();
         }
     }
+ 
+    static void rightleft(int n){
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        // Lower part of the pattern
+        for (int i = n - 1; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+ 
+
+
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
@@ -136,6 +157,8 @@ public class patterns {
         inversemiddle(n);
         System.out.println("---\n");
         doublemiddle(n);
+        System.out.println("---\n");
+        rightleft(n);
 
 
 
