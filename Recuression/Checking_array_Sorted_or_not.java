@@ -6,7 +6,6 @@ class Checking_array_Sorted_or_not {
     public static boolean Checking(int arr[], int index){
 
         //base case
-        System.out.println("Given String is a Sorted String");
         if(index==arr.length-1){
             return true;
         }
@@ -16,13 +15,9 @@ class Checking_array_Sorted_or_not {
         if(arr[index]<arr[index+1]){
 
             //if it is sorted, now we have to increment the index {index++}
-        
-
-
             return Checking(arr, index+1);
         }
         else{
-            System.out.println("Given String is a NOT Sorted String");
             return false;
         }
         
