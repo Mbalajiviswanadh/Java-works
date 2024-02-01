@@ -43,6 +43,8 @@ import java.util.*;
 
         System.out.print("Enter One Character to find 1st and Last place{indices} :");
 
+
+        //only for single char
         String charInput=sc.next();
 
         // char element_tofind = sc.charAt;
