@@ -23,8 +23,8 @@ class Binary_Search {
             }
             else{
                 
-                // if key is less then mid value then left should starts searching before the mid
-                left =mid-1;
+                // if key is less then mid value then right should reach to mid-1 
+                right =mid-1;
             }
         }
         return left;
