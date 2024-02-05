@@ -1,7 +1,9 @@
+import java.util.Scanner;
 import java.util.Stack;
 
 class Solution {
-    public boolean isValid(String s) {
+    
+    public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
 
         for (char c : s.toCharArray()) {
@@ -21,5 +23,13 @@ class Solution {
         }
         
         return stack.isEmpty();
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENter you Input :");
+        String s=sc.nextLine();
+
+        boolean result = isValid(s);
+        System.out.print("FInal result :" +result);
     }
 }
