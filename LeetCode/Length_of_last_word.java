@@ -1,5 +1,6 @@
-class Solution {
-    public int lengthOfLastWord(String s) {
+import java.util.*;
+class Length_of_lastword {
+    public static int lengthOfLastWord(String s) {
 
         if(s.length() ==1){
             return 1;
@@ -23,6 +24,21 @@ class Solution {
             }
         }
         return len;
+        
+    }
+
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Input String :");
+
+        String s= sc.nextLine();
+
+        //caling the function 
+
+        int result = lengthOfLastWord(s);
+        System.out.println("The Length is : " +result);
         
     }
 }
