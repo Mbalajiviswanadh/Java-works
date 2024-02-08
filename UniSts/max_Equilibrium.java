@@ -1,17 +1,17 @@
-package Uni_STS;
+package UniSts;
 import java.util.*;
 
 class max_equilibrium {
 
     public static int finding_equilibrium(int arr[] , int n){
 
-        int left_sum = 0;
-        int right_sum=0;
+     
 
 
 
-        for(int i=1; i<n;i++){
-
+        for(int i=0; i<n;++i){
+            int left_sum = 0;
+            int right_sum=0;
 
             //below for loops will find the sum from 0 --- (<i) values
             for(int j =0; j<i;j++){
@@ -28,7 +28,7 @@ class max_equilibrium {
                 return i;
             }
         }
-        return 0;
+        return -1;
         
     }
     
@@ -49,5 +49,14 @@ class max_equilibrium {
         for(int i =0;i<n;i++){
             arr[i] = sc.nextInt();
         }
+
+
+
+        //calling the function 
+
+        int result =  finding_equilibrium(arr,n);
+        System.out.print("The Equilibrium values is: "+result);
+
+
     }
 }
