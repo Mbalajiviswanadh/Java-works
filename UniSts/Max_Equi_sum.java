@@ -1,7 +1,34 @@
 package UniSts;
 import java.util.*;
+import java.util.stream.*;
+
 
 class Max_Equi_sum {
+/*<---------------------------- Time complexity is O(n) -----------------------> */
+
+//   public static int findMaxsum_tc_n(int arr[] , int n){
+
+//         int sum = IntStream.of(arr).sum();
+
+//         int prefix_sum =0;
+
+//         int res = Integer.MIN_VALUE;
+
+//         for(int i =0; i<n;i++){
+
+//             prefix_sum +=arr[i];
+
+//             if(prefix_sum ==sum ){
+//                 res = Math.max(res, prefix_sum);
+//                 sum -=arr[i];
+//             }
+            
+//         }
+//         return res;
+//   }
+ 
+
+/*<---------------------------- Time complexity is O(n^2) -----------------------> */
 
     public static int findmaxsum(int arr[] , int n ){
 
@@ -52,3 +79,7 @@ class Max_Equi_sum {
 
     }
 }
+
+
+
+
