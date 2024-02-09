@@ -28,6 +28,31 @@ class Majority_Element {
             }
         }
         return majorirty_value;
+
+        /*
+            * class Solution {
+        public int majorityElement(int[] nums) {
+            int n = nums.length;
+            int count = 1; // Start count from 1 for the first element
+            int majority_value = nums[0];
+
+            for(int i = 1; i < n; i++) {
+                if(nums[i] == majority_value) {
+                    count++;
+                } else {
+                    count--;
+                    if(count == 0) {
+                        // If count becomes 0, update majority_value to the current element
+                        majority_value = nums[i];
+                        count = 1; // Reset count for the new majority candidate
+                    }
+                }
+            }
+            return majority_value;
+        }
+    }
+
+         */
     }
     
 
