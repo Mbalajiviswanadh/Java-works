@@ -1,4 +1,4 @@
-## LEARN && UNDERSTAND && DO;☮️
+## LEARN && UNDERSTAND && CODE;☮️
 
 - Here, I will be Pushing my Practice works that i am working on JAVA >> DSA..🌱
 - Working on Basics--Average--Medium--Hard Questions & Concepts📈
