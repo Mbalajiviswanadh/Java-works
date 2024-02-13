@@ -4,7 +4,9 @@ import java.util.*;
 
 class Permutations{
 
-    public static void PrintPermutaion(String str, String perm,int n , int idx){
+    public static void PrintPermutaion(String str, String perm , int idx){
+        int n =str.length();
+
         //base case
         if(n == 0){
             System.out.println(perm);
@@ -20,7 +22,7 @@ class Permutations{
             //stroing remaning characters in new string
             String newString = str.substring(0,i) + str.substring(i+1);
 
-            PrintPermutaion(newString,perm+ch,idx+1, i);
+            PrintPermutaion(newString,perm+ch,idx+1);
         }
 
     }
@@ -30,12 +32,11 @@ class Permutations{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter String :");
         String str = sc.nextLine();
-        int n =str.length();
 
         //intialising the perm as empty string, beacuse we can store new string here
         String perm ="";
 
-        PrintPermutaion(str,perm,n,0);
+        PrintPermutaion(str,perm,0);
 
 
     }
