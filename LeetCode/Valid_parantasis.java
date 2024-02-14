@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-class Solution {
+class Valid_parantasis {
     
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
