@@ -1,4 +1,4 @@
-package UniSts;
+package UNI_STS;
 
 import java.util.*;
 
