@@ -1,22 +1,22 @@
 import java.util.*;
 class Finding_Polygon_largest_perimeter {
 
-    // public static long largestperimeeter(long nums[], int n){
+    public static long largestperimeeter(long nums[], int n){
 
-    //     long newarray[] = new long[n];
+        long newarray[] = new long[n];
 
-    //     newarray[0]=nums[0];
-    //     for(int i=1;i<n;i++){
-    //         newarray[i] =(long)newarray[i-1] +(long)nums[i];
-    //     }
-    //     for(int i=n-1;i>=2;i--){
-    //         if((long)newarray[i-1] > (long)nums[i]){
-    //             return (long)newarray[i];
-    //         }
-    //     }
-    //     return -1;
+        newarray[0]=nums[0];
+        for(int i=1;i<n;i++){
+            newarray[i] =(long)newarray[i-1] +(long)nums[i];
+        }
+        for(int i=n-1;i>=2;i--){
+            if((long)newarray[i-1] > (long)nums[i]){
+                return (long)newarray[i];
+            }
+        }
+        return -1;
 
-    // }
+    }
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
