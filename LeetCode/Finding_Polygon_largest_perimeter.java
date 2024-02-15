@@ -3,6 +3,7 @@ class Finding_Polygon_largest_perimeter {
 
     public static long largestperimeeter(long nums[], int n){
 
+        Arrays.sort(nums);
         long newarray[] = new long[n];
 
         newarray[0]=nums[0];
