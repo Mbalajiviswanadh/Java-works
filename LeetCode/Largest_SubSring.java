@@ -11,17 +11,29 @@ class Largest_SubSring {
         HashSet<Character> hash_set= new HashSet<>();
 
         while(ending_point < n){
-            if(!hash_set.contains(s.))){
-                hash_set.add()
+            if(!hash_set.contains(s.charAt(ending_point))){
+                hash_set.add(s.charAt(ending_point));
+                ending_point++;
+
+                maxsum= Math.max(hash_set.size(),maxsum);
+            }
+            else{
+                hash_set.remove(s.charAt(starting_point));
+                starting_point++;
             }
         }
+        return maxsum;
 
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
 
+        System.out.println("Enter the String:");
+        String s= sc.nextLine();
+        int n =s.length();
+
+        System.out.println("Size of the Largest SubString is : " +finding_lasrgest_substring_length(s, n));
 
 
     }
