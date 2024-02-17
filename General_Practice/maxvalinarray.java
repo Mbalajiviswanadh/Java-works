@@ -1,3 +1,4 @@
+package General_Practice;
 import java.util.*;
 class maxval_in_an_array {
 

@@ -1,3 +1,4 @@
+package General_Practice;
 import java.util.Scanner;
 
 public class Remove_value {

@@ -1,3 +1,4 @@
+package General_Practice;
 import java.util.Scanner;
 
 class InsertationSort {
