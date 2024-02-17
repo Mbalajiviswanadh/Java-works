@@ -11,7 +11,14 @@ class Largest_SubSring {
         HashSet<Character> hash_set= new HashSet<>();
 
         while(ending_point < n){
+            
+            // if the endpoint value is not present in the hasset we need to add that element which one is unique
+            
+            // if the end_point value is not in has_set 
             if(!hash_set.contains(s.charAt(ending_point))){
+                               
+                //adding that end_point to the hasset
+
                 hash_set.add(s.charAt(ending_point));
                 ending_point++;
 
