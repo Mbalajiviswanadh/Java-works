@@ -46,6 +46,6 @@ class Zig_zag{
         System.out.println("Enter No Of Row: ");
         int numRows= sc.nextInt();
 
-        // System.out.println("Converted String :" +conver(s,numRows));
+        System.out.println("Converted String :" +conver(s,numRows));
     }
 }
