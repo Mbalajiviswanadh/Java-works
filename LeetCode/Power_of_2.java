@@ -14,8 +14,8 @@ public class Power_of_2 {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter Number :");
-        // int n =sc.nextInt();
+        System.out.println("Enter Number :");
+        int n =sc.nextInt();
 
         // System.out.println("Result : "+ispowerof2_Equlas_toNumber(n));
     }
