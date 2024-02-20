@@ -48,7 +48,7 @@ public class Missing_num {
             nums[i] =sc.nextInt();
         }
         // Missing_num sol= new Missing_num();
-        System.out.println("Result : " +FindMissingNum(nums, n));
+        System.out.println("Result Missing number : " +FindMissingNum(nums, n));
         // sol.FindMissingNum(nums,n);
 
     }
