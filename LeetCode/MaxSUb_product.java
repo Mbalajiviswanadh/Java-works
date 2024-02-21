@@ -38,5 +38,8 @@ public class MaxSUb_product {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
+
+        int result = finding_maxProduct(nums, n);
+        System.out.println("The max prouct value is "+result);
     }
 }
