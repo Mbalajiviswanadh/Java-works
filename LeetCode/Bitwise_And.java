@@ -22,7 +22,16 @@ public class Bitwise_And {
         }
         return bitwiseANDResult;
     }
-    
+    public static int bitwseAnd_using_swift(int left, int right){
+
+        int count =0;
+        while(left!=right){
+            left>>=1;
+            right>>=1;
+            count++;
+        }
+        return left<<count;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the left and right values:");
@@ -30,8 +39,10 @@ public class Bitwise_And {
         int right = sc.nextInt();
 
         int result = bitwise_And(left, right);
+        int result_using_Swifts= bitwseAnd_using_swift(left, right);
 
         System.out.println("The Result of Bitwse AND is :"+result);
+        System.out.println("The Result of Bitwse AND using Swifts is :"+result_using_Swifts);
         
     }
 }
