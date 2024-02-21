@@ -18,9 +18,14 @@ public class MaxSUb_product {
                  * leftProduct= leftProduct==0?1:leftProduct;
                  * rightProduct=rightProduct==0?1:rightProduct;
                  */
+                //  left product starts from begging 
+                leftProduct*=nums[i];
+                //  right product starts from n-1 from last side / end of array
+                rightProduct*=nums[n-1-i];
 
-
+                ans=Math.max(ans,Math.max(leftProduct,rightProduct));
             }
+            return ans;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
