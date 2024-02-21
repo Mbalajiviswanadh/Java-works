@@ -29,5 +29,7 @@ public class Minimum_values_after_roated {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
+        int result = minAfterRoated(n, nums);
+        System.out.println("The Mini value is : "+result);
     }
 }
