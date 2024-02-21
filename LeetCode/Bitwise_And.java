@@ -18,6 +18,9 @@ public class Bitwise_And {
         int left = sc.nextInt();
         int right = sc.nextInt();
 
+        int result = bitwise_And(left, right);
+
+        System.out.println("The Result of Bitwse AND is :"+result);
         
     }
 }
