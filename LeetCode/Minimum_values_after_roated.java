@@ -2,7 +2,19 @@ import java.util.*;
 public class Minimum_values_after_roated {
     
     public static int minAfterRoated(int n, int nums[]){
-        
+        int low=0;
+        int high=n-1;
+
+        while(low<high){
+
+            int mid=low+(high-low)/2;
+            if(nums[mid]>nums[high]){
+                low=mid+1;
+            }else{
+                high=mid;
+            }
+        }
+        return nums[low];
     }
 
     public static void main(String[] args) {
