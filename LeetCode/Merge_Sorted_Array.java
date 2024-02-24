@@ -23,7 +23,6 @@ class Merge_sorted_array{
             nums1[k--]=nums2[j--];
         }
         return nums1;
-        // System.out.println("The result Merged Array is: "+nums1);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
