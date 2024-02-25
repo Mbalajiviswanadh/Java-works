@@ -28,6 +28,15 @@ public class Divide_Array_Into_Arrays {
         int k = sc.nextInt();
         int result[][]= divideArray(numsarr, n,k);
         System.out.println("result :");
+        for(int i=0;i<result.length;i++){
+            System.out.print("[");
+            for(int j =0;j<result.length;j++){
+                System.out.print(result[i][j]);
+                if(j<result.length-1)
+                System.out.print(",");
+            }
+            System.out.print("]");
+        }
         
     }
 }
