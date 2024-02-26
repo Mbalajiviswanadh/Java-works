@@ -51,14 +51,21 @@ public class three_sum {
 
         List<List<Integer>> result = threeSum(nums, n);
         System.out.println("Reslt: ");
-        for(List<Integer> i : result){
-            for(int j: i){
-                System.out.print(j+" ");
-            }
-            System.out.println();
-        } 
-        
-    }
+        System.out.print("[");
+        for (List<Integer> triplet : result) {
 
+            System.out.print("[");
+            for (int i = 0; i < triplet.size(); i++) {
+                if (i < triplet.size() - 1) {
+                    System.out.print(triplet.get(i) + ",");
+                } else {
+                    System.out.print(triplet.get(i));
+                }
+            }
+            System.out.print("]");
+       }
+       System.out.print("]");
+
+    }
     
 }
