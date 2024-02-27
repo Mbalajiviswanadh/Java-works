@@ -28,7 +28,7 @@ public class Three_Sum_Closest {
         int n = sc.nextInt();
 
         int nums[] = new int[n];
-
+        System.out.println("Enter the values inside :");
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
