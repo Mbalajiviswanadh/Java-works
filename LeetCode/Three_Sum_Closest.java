@@ -35,5 +35,9 @@ public class Three_Sum_Closest {
 
         System.out.println("Enter the arget value :");
         int target = sc.nextInt();
+
+        // calling the function 
+        int result = threeSumClosest(nums, n, target);
+        System.out.println("The closest sum for target value is : "+result);
     }
 }
