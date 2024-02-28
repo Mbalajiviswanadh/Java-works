@@ -1,5 +1,7 @@
 package UNI_STS.Linked_List;
 
+import java.util.Scanner;
+
 public class SOrting_bitonic_LL {
     static class Node{
         int data;
@@ -13,7 +15,7 @@ public class SOrting_bitonic_LL {
         }
     }
 
-    class DLL{
+    static class DLL{
         Node head=null, tail=null;
 
         void insert(int d){
@@ -56,6 +58,16 @@ public class SOrting_bitonic_LL {
     }
 
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        int n =sc.nextInt();
+        DLL dll=new DLL();
+        for(int i=0;i<n;i++){
+            int value=sc.nextInt();
+            dll.insert(value);    
+        }
+        System.out.println("Enterted values are :");
+        dll.display();
+        DLL result=dll.sort();
+
     }
 }
