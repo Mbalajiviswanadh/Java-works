@@ -9,7 +9,7 @@ class Permutations_in_String {
         for(int c: s1.toCharArray()){
             map_array[c-'a']++;
         }
-        int count= s2.length();
+        int count= s1.length();
         int i=0,j=0;
         
         while(j<s2.length()){
@@ -37,6 +37,8 @@ class Permutations_in_String {
         System.out.println("Enter the String value for S2 (String 2) :");
         String s2 = sc.nextLine();
 
+        // calling the fucntion 
+        System.out.println("Result : "+isPresnetInS2_orNot(s1, s2));
         
     }
 }
