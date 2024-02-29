@@ -13,9 +13,18 @@ class Permutations_in_String {
         int i=0,j=0;
         
         while(j<s2.length()){
+            
+            // checking whether the index value in s2 is lessthan '0' and also decrementing and also if the condtion is true we are reducing the count 
+            if(map_array[s1.charAt(j++)-'a']-- >0){
+                count--;
+            }
 
-            if()
+            if(count==0) return true;
+            // if the char is missing while sliding the window; we are increaing the count again
+            if(j-1==s1.length() && map_array[s1.charAt(i++)-'a']++ >=0)
+            count++;
         }
+        return false;
 
 
     }
