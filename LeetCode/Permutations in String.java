@@ -6,6 +6,17 @@ class Permutations_in_String {
         // creating an array for mapping all the alphabets chars
         int map_array[]=new int[26];
 
+        for(int c: s1.toCharArray()){
+            map_array[c-'a']++;
+        }
+        int count= s2.length();
+        int i=0,j=0;
+        
+        while(j<s2.length()){
+
+            if()
+        }
+
 
     }
     
