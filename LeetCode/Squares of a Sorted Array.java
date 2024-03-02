@@ -26,6 +26,12 @@ class Squares_SortedArray {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
-        // 
+        // calling the function 
+        int result[]=SquaringandSorting(nums, n);
+
+        System.out.println("Result :");
+        for(int i=0;i<result.length;i++){
+            System.out.print(result[i]+" ");
+        }
     }
 }
