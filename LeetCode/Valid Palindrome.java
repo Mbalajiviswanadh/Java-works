@@ -4,23 +4,25 @@ class Valid_Palindrome {
         if(s.isEmpty()){
             return true;
         }
-        int l=0;
-        int r=s.length()-1;
+        int i=0;
+        int j=s.length()-1;
 
-        while(r>=l){
-            char curr_first=s.charAt(l);
-            char curr_last=s.charAt(r);
-            if(!Character.isLetterOrDigit(curr_first)){
-                l++;
-            }
-            else if(!Character.isLetterOrDigit(curr_last)){
-                r--;
-            }
-            if(Character.isLowerCase(curr_first)!=Character.isLowerCase(curr_last)){
+        while(j>=i){
+            char curr_first=s.charAt(i);
+            char curr_last=s.charAt(j);
+
+            if(!Character.isLetterOrDigit(curr_first))
+            i++;
+            else if(!Character.isLetterOrDigit(curr_last))
+            j--;
+            else{
+                if(Character.toLowerCase(curr_first)!=Character.toLowerCase(curr_last))
                 return false;
+
+                i++;
+                j--;
             }
-            l++;
-            r--;
+            
         }
         return true;
     }
@@ -29,6 +31,8 @@ class Valid_Palindrome {
         System.out.println("Enter the String input:");
         String s =sc.nextLine();
 
+        // calling the funtion 
+        System.out.println("Result : "+isPalindrome(s));
 
     }    
 }
