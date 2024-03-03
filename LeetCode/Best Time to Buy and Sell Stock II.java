@@ -20,8 +20,10 @@ class Best_Time_to_Buy_and_Sell_Stock_II {
         for(int i=0;i<n;i++){
             prices[i]=sc.nextInt();
         }
+        // calling the funtion 
 
-        
+        System.out.println("Result is : "+findingProfit(prices, n));
+
 
         
     }
