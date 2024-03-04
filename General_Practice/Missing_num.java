@@ -1,4 +1,4 @@
-package General_Practice;
+// package General_Practice;
 import java.lang.reflect.Array;
 import java.util.*;
 public class Missing_num {
