@@ -2,15 +2,28 @@ import java.util.*;
 
 
 class Add_DElete_inList{
-   static Node head;
+    static Node head;
+    //    tracking size;
+    private int size;
+
+    // initilizing here
+
+    Add_DElete_inList(){
+        this.size=0;
+
+    }
+
 
    class Node{
     String data;
     Node next;
 
+
     Node(String data){
         this.data=data;
         this.next=null;
+        // incresingthe size when we are creating nodes
+        size++;
     }
 
    }    
@@ -50,8 +63,9 @@ class Add_DElete_inList{
         System.out.println("List is Empty");
             return;
         }
-
+        
         head=head.next;
+        size--;
     }
     // delete nodde { LAST}
     public void deleteLast(){
@@ -61,6 +75,7 @@ class Add_DElete_inList{
             return;
         }
 
+        size--;
         if(head.next==null){
             head=null;
             return;
@@ -78,20 +93,26 @@ class Add_DElete_inList{
     // printing the list
 
    public void printout(){
-    Node curr_node=head;
-    if(head==null){
-        System.out.println("List is Empty");
-        return;
+        Node curr_node=head;
+        if(head==null){
+            System.out.println("List is Empty");
+            return;
+        }
+
+        while(curr_node!=null){
+            System.out.print(curr_node.data+" -> ");
+            // helps in itrating
+            curr_node=curr_node.next;
+
+        }
+        System.out.println("NUll");
+
     }
 
-    while(curr_node!=null){
-        System.out.print(curr_node.data+" -> ");
-        // helps in itrating
-        curr_node=curr_node.next;
-
+    public int getSize(){
+        return size;
     }
-    System.out.println("NUll");
-}
+
 
 
    public static void main(String[] args) {
@@ -100,22 +121,30 @@ class Add_DElete_inList{
     list.addFirst("name");
     list.addFirst("my");
     list.printout();
+    // System.out.println(list.getClass());
+    
 
     // my -> name
     list.addLast("is");
     list.printout();
+    // System.out.println(list.getClass());
+
 
     // my -> name -> is
     list.addLast("vissy");
     list.printout();
+    // System.out.println(list.getClass());
 
     // my -> name -> is -> vissy
     
     list.deleteFirst();
     list.printout();
+    // System.out.println(list.getClass());
+
     //  name -> is -> vissy
     list.deleteLast();
     list.printout();
+    System.out.println(list.getClass());
 
     //  name -> is
 
