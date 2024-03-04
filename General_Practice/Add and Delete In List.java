@@ -121,30 +121,34 @@ class Add_DElete_inList{
     list.addFirst("name");
     list.addFirst("my");
     list.printout();
-    // System.out.println(list.getClass());
+    System.out.println(list.getSize());
+
     
 
     // my -> name
     list.addLast("is");
     list.printout();
-    // System.out.println(list.getClass());
+    System.out.println(list.getSize());
+
 
 
     // my -> name -> is
     list.addLast("vissy");
     list.printout();
-    // System.out.println(list.getClass());
+    System.out.println(list.getSize());
+
 
     // my -> name -> is -> vissy
     
     list.deleteFirst();
     list.printout();
-    // System.out.println(list.getClass());
+    System.out.println(list.getSize());
+
 
     //  name -> is -> vissy
     list.deleteLast();
     list.printout();
-    System.out.println(list.getClass());
+    System.out.println(list.getSize());
 
     //  name -> is
 
