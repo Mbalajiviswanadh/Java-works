@@ -42,6 +42,39 @@ class Add_DElete_inList{
         }
         curr_node.next=newNode;
     }
+
+    // delete nodde { FIRST}
+    public void deleteFirst(){
+
+        if(head==null){
+        System.out.println("List is Empty");
+            return;
+        }
+
+        head=head.next;
+    }
+    // delete nodde { LAST}
+    public void deleteLast(){
+
+        if(head==null){
+            System.out.println("List is empty");
+            return;
+        }
+
+        if(head.next==null){
+            head=null;
+            return;
+        }
+        Node seconLast=head;
+        Node lastNode=head.next;
+
+        while(lastNode.next != null){
+            lastNode=lastNode.next;
+            seconLast=seconLast.next;
+        }
+        seconLast.next=null;
+
+    }
     // printing the list
 
    public void printout(){
@@ -60,6 +93,7 @@ class Add_DElete_inList{
     System.out.println("NUll");
 }
 
+
    public static void main(String[] args) {
     Add_DElete_inList list=new Add_DElete_inList();
 
@@ -73,6 +107,12 @@ class Add_DElete_inList{
     list.addLast("vissy");
     list.printout();
     
+    list.deleteFirst();
+    list.printout();
+    list.deleteLast();
+    list.printout();
+
+
    }
 
 }
