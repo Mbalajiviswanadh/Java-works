@@ -101,16 +101,23 @@ class Add_DElete_inList{
     list.addFirst("my");
     list.printout();
 
+    // my -> name
     list.addLast("is");
     list.printout();
 
+    // my -> name -> is
     list.addLast("vissy");
     list.printout();
+
+    // my -> name -> is -> vissy
     
     list.deleteFirst();
     list.printout();
+    //  name -> is -> vissy
     list.deleteLast();
     list.printout();
+
+    //  name -> is
 
 
    }
