@@ -27,5 +27,7 @@ class deletingSimilar_ends {
         Scanner sc = new Scanner(System.in);
         System.out.println("ENter the Sting:");
         String s = sc.nextLine();
+
+        System.out.println("Final size after deleting : "+findingthe_sizeofTheSring_afterDeleting(s));
     }
 }
