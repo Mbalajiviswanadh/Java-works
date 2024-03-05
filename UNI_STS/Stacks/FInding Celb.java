@@ -43,7 +43,7 @@ class FInding_Celb {
         System.out.println("ENter the rows and columns for matrix:");        
         int n=sc.nextInt();
         int matrix[][]=new int[n][n];
-        
+        System.out.println("Enter the values inside:");
         for(int i=0;i<n;i++){
 
             for(int j=0;j<n;j++){
