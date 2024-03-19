@@ -28,11 +28,13 @@ class Non_Overlapping_intervals{
                 intervals[i][j]=sc.nextInt();
             }
         }
-        System.out.println("INput :");
+        List<int[]> l=new ArrayList<>();
         for(int i=0;i<n;i++){
-            for(int j=0;j<2;j++){
-                System.out.print(intervals[i][j]+" ");
-            }
+            l.add(intervals[i]);
+        }
+        System.out.println("INput :");
+        for(int val[]:l){
+            System.out.print(Arrays.toString(val) +" ");
         }
         System.out.println();
 
