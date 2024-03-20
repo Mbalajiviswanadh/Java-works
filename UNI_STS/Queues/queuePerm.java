@@ -29,12 +29,14 @@ public class queuePerm {
         for(int i=0;i<n;i++){
             int curr=input_q.poll();
             System.out.print(curr+" ");
+            input_q.offer(curr);
         }
         System.out.println();
         System.out.println("Output Queue :");
         for(int i=0;i<n;i++){
             int curr=output_q.poll();
             System.out.print(curr+" ");
+            output_q.offer(curr);
         }
         System.out.println();
     }
