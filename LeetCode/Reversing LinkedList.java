@@ -55,6 +55,19 @@ class Reversing_LinkedList{
 
     }
 
+    public static Node usingRecrusion(Node head){
+
+        if(head ==null || head.next==null)
+        return head;
+
+        Node prev=usingRecrusion(head.next);
+        head.next.next=head;
+        head.next=null;
+
+        return prev;
+
+    }
+
     // displaying
 
     public static void displayValues(){
@@ -90,7 +103,17 @@ class Reversing_LinkedList{
 
         System.out.println("Result after reversing:");
         rl.displayValues();
+
+
+        System.out.println("Result : using recression :");
+        Node temp=head;
+        while (temp!=null) {
+            System.out.print(temp.data+" ");
+            temp=temp.next;
+        }
+        // usingRecrusion(head);
     }
+
 
 
 
