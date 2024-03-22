@@ -5,39 +5,18 @@ import java.util.*;
 
 
 class PqUsingDLL {
-
-
     static Node front, rear;
-
-
+    
     static class Node {
         char info;
         int priority;  
         Node prev, next;
-    }
-
-
-    static void display() {  
-        Node current = front;  
-        if(isEmpty()) {  
-            System.out.println("List is empty");  
-            return;  
-        }  
-        System.out.println("Nodes of doubly linked list: ");  
-        while(current != null) {  
- 
-            System.out.print("In " + current.info + " pr " + current.priority+" \n");  
-            current = current.next;  
-        }  
-    }  
-
-
+    }    
     static void push(char n, int p)
     {
         Node news = new Node();
         news.info = n;
         news.priority = p;
-
 
         if (isEmpty()) {
             front = news;
@@ -59,10 +38,7 @@ class PqUsingDLL {
                 rear = news;
             }
 
-
             else {
-
-
                 Node start = (front).next;
                 while (start.priority < p)
                     start = start.next;
@@ -99,6 +75,22 @@ class PqUsingDLL {
 
         return res;
     }
+
+    static void display() {  
+        Node current = front;  
+        if(isEmpty()) {  
+            System.out.println("List is empty");  
+            return;  
+        }  
+        System.out.println("Nodes of doubly linked list: ");  
+        while(current != null) {  
+ 
+            System.out.print("In " + current.info + " pr " + current.priority+" \n");  
+            current = current.next;  
+        }  
+    }  
+
+
 
 
     public static void main(String args[])
