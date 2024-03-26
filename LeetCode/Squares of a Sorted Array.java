@@ -29,6 +29,9 @@ class Squares_SortedArray {
         // calling the function 
         int result[]=SquaringandSorting(nums, n);
 
+
+
+        
         System.out.println("Result :");
         for(int i=0;i<result.length;i++){
             System.out.print(result[i]+" ");
