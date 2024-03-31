@@ -12,7 +12,7 @@ public class queuePerm {
         Stack<Integer> st = new Stack<>();
 
         while(! input_q.isEmpty()){
-            int curr=input_q.poll();
+            st.push(input_q.poll());
             while (!st.isEmpty() && st.peek() == output_q.peek()) {
                 st.pop();
                 output_q.poll();
