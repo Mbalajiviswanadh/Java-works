@@ -17,6 +17,9 @@ import java.util.*;
         return min_idx;
     }
 
+
+    
+
     public static void insert_at_the_end(Queue<Integer>q,int n,int min_idx){
         int minval=0;
         for(int i=0;i<n;i++){
