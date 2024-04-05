@@ -21,6 +21,22 @@ class Binary_tree_Builder {
         preOrder(currroot.left);
         preOrder(currroot.right);   
     }
+
+    public void levelOrder(){
+        Queue<TreeNode> q= new LinkedList<>();
+        q.offer(root);
+
+        while (!q.isEmpty()) {
+            TreeNode curr=q.poll();
+            System.out.print(curr.data+" ");
+            if(curr.left!=null){
+                q.offer(curr.left);
+            }
+            if(curr.right!=null){
+                q.offer(curr.right);
+            }
+        }
+    }
     public TreeNode buildTree(String strTree[], Binary_tree_Builder bt){
         
 
@@ -63,6 +79,8 @@ class Binary_tree_Builder {
 
         System.out.println("\nPre Order -B_Tree:");
         bt.preOrder(bt.root);
+        System.out.println("\nlevel Order-B_Tree:");
+        bt.levelOrder();
 
 
     }
