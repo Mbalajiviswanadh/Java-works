@@ -30,6 +30,7 @@ class Binary_Subarrays_With_Sum{
         int goal=sc.nextInt();
         
         System.out.println("Result : "+numSubarraysWithSum(nums, n, goal));
+        sc.close();
 
     }
 }

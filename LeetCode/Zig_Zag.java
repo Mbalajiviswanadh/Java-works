@@ -47,5 +47,6 @@ class Zig_zag{
         int numRows= sc.nextInt();
 
         System.out.println("Converted String :" +conver(s,numRows));
+        sc.close();
     }
 }

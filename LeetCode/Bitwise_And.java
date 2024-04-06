@@ -43,6 +43,7 @@ public class Bitwise_And {
 
         System.out.println("The Result of Bitwse AND is :"+result);
         System.out.println("The Result of Bitwse AND using Swifts is :"+result_using_Swifts);
+        sc.close();
         
     }
 }

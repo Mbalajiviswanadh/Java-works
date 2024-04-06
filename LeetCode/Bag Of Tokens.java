@@ -39,5 +39,6 @@ class Bag_ofTokens{
         int power=sc.nextInt();
 
         System.out.println("Result : "+findingScore(tokens, n, power));
+        sc.close();
     }
 }

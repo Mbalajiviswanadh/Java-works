@@ -23,7 +23,7 @@ class Best_Time_to_Buy_and_Sell_Stock_II {
         // calling the funtion 
 
         System.out.println("Result is : "+findingProfit(prices, n));
-
+        sc.close();
 
         
     }
