@@ -25,6 +25,7 @@ class Is_Subsequence{
         String t=sc.nextLine();
 
         System.out.println("Result : "+compare(s, t) );
+        sc.close();
 
     }
 }
