@@ -6,6 +6,7 @@ class Sum_ofLeftLeaves {
         int val;
         TreeNode left,right;
 
+        
         TreeNode(int val){
             this.left=null;
             this.right=null;
