@@ -31,5 +31,6 @@ class Valid_parantasis {
 
         boolean result = isValid(s);
         System.out.print("FInal result :" +result);
+        sc.close();
     }
 }
