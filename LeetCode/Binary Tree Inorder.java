@@ -11,6 +11,7 @@ class Solution {
             this.left=null;
             this.right=null;
         }
+        
     }
     List<Integer> l=new ArrayList<>();
 public List<Integer> inorderTraversal(TreeNode root) {
