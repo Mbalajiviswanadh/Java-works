@@ -24,6 +24,7 @@ class Segregate
         while(currentNode != null) {
             int element = currentNode.data;
            
+           
             if(element % 2 == 0) {
                
                 if(evenStart == null) {
