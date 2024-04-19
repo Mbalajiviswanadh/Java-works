@@ -14,6 +14,7 @@ class Segregate
         }
     }
     public void segregateEvenOdd()
+    
     {
         Node evenStart = null;
         Node evenEnd = null;
@@ -24,7 +25,7 @@ class Segregate
         while(currentNode != null) {
             int element = currentNode.data;
            
-           
+
             if(element % 2 == 0) {
                
                 if(evenStart == null) {
