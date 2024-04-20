@@ -8,6 +8,7 @@ class Valid_Palindrome {
         int j=s.length()-1;
 
         while(j>=i){
+            
             char curr_first=s.charAt(i);
             char curr_last=s.charAt(j);
 
