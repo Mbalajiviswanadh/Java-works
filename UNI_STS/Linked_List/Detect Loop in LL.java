@@ -45,6 +45,7 @@ class Detect_LoopINLL{
     public static boolean findingLoop(ListNode head){
         if(head==null && head.next==null){
             return false;
+            
         }
 
         ListNode fast=head;
