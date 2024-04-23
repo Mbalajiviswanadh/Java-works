@@ -27,6 +27,7 @@ class Detect_LoopINLL{
     //     System.out.println("NULL");
     // }
 
+
     // public static void insterVal(int data){
     //     ListNode newNode = new ListNode(data);
 
