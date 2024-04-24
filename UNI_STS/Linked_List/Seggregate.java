@@ -11,6 +11,7 @@ class Main {
             next = null;
         }
     }
+    
     public static Main insert(Main list, int data) {
         Node new_node = new Node(data);
         if (list.head == null) {
