@@ -55,6 +55,7 @@ class RelativeSOrt_Array{
 
         //calling the function
         int res[]= relativesort(arr1, arr2, n1, n2);
+        System.out.println("Result:");
         for(int i:res){
             System.out.print(i+" ");
 
