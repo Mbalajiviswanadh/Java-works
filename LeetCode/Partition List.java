@@ -1,3 +1,4 @@
+import java.util.*;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -9,6 +10,14 @@
  * }
  */
 class Solution {
+    public class ListNode{
+        int val;
+        ListNode next;
+        ListNode(int val){
+            this.val=val;
+            this.next=null;
+        }
+    }
     public ListNode partition(ListNode head, int x) {
         // List<Integer> list1= new ArrayList<>();
         // List<Integer> list2= new ArrayList<>();
