@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MoveZeroes",
+      "request": "launch",
+      "mainClass": "MoveZeroes",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "HelloWorld",
       "request": "launch",
       "mainClass": "HelloWorld",
