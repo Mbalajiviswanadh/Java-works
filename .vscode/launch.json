@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BestTimeTOBuyand_SellStock",
+      "request": "launch",
+      "mainClass": "BestTimeTOBuyand_SellStock",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "MoveZeroes",
       "request": "launch",
       "mainClass": "MoveZeroes",
