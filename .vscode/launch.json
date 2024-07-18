@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Valid_parenthese",
+      "request": "launch",
+      "mainClass": "Valid_parenthese",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "ChocolateDistributionProblem",
       "request": "launch",
       "mainClass": "ChocolateDistributionProblem",
