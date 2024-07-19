@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReverseWordinastring",
+      "request": "launch",
+      "mainClass": "ReverseWordinastring",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "FindAll_Duplicates",
       "request": "launch",
       "mainClass": "FindAll_Duplicates",
