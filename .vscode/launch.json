@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Driverclass",
+      "request": "launch",
+      "mainClass": "Driverclass",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "AddB_inary",
       "request": "launch",
       "mainClass": "AddB_inary",

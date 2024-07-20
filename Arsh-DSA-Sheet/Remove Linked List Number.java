@@ -1,6 +1,15 @@
 import java.util.*;
 
 class RemoveLinkedListNumber {
+    
+    static class ListNode {
+        ListNode next;
+        int val;
+        ListNode(int data){
+            this.next=null;
+            this.val=val;
+        }
+    }
     public ListNode removeElements(ListNode head, int val) {
         ListNode dummy= new ListNode(0);
         dummy.next=head;
