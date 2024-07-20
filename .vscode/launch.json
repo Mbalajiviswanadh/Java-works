@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Containerwithmostwater",
+      "request": "launch",
+      "mainClass": "Containerwithmostwater",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Driverclass",
       "request": "launch",
       "mainClass": "Driverclass",
