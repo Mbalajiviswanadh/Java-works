@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumSwaptosort",
+      "request": "launch",
+      "mainClass": "MinimumSwaptosort",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "SearchinRoatedSortedArray",
       "request": "launch",
       "mainClass": "SearchinRoatedSortedArray",

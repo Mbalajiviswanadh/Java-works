@@ -31,5 +31,6 @@ class ChocolateDistributionProblem{
         int m=sc.nextInt();
 
         System.out.print(solve(nums,m));
+        sc.close();
     }
 }

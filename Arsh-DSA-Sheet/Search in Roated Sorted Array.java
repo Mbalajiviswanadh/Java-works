@@ -28,5 +28,6 @@ class SearchinRoatedSortedArray {
         int target=sc.nextInt();
 
         System.err.println(solve(nums,target));
+        sc.close();
     }
 }
