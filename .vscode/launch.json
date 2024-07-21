@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidPalindrome",
+      "request": "launch",
+      "mainClass": "ValidPalindrome",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "LongestCommonPrefix",
       "request": "launch",
       "mainClass": "LongestCommonPrefix",
