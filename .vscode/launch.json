@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestCommonPrefix",
+      "request": "launch",
+      "mainClass": "LongestCommonPrefix",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Printalltheduplicates",
       "request": "launch",
       "mainClass": "Printalltheduplicates",
