@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Printalltheduplicates",
+      "request": "launch",
+      "mainClass": "Printalltheduplicates",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "FindPeakElement",
       "request": "launch",
       "mainClass": "FindPeakElement",
