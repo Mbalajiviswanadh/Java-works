@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindPeakElement",
+      "request": "launch",
+      "mainClass": "FindPeakElement",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "MinimumSwaptosort",
       "request": "launch",
       "mainClass": "MinimumSwaptosort",
