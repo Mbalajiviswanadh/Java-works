@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BackspaceStringCompare",
+      "request": "launch",
+      "mainClass": "BackspaceStringCompare",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "ValidPalindrome",
       "request": "launch",
       "mainClass": "ValidPalindrome",
