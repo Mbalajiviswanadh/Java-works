@@ -92,6 +92,36 @@ class SortingTheList{
         }
         
     }
+
+    public static ListNode usingArrayList(ListNode head){
+
+        List<Integer> res = new ArrayList<>();
+
+        ListNode curr = head;
+
+        while(curr!=null){
+            res.add(curr.data);
+            curr=curr.next;
+        }
+
+        Collections.sort(res);
+
+        ListNode newcurr= head;
+        for(int i: res){
+            newcurr.data=i;
+            newcurr=newcurr.next;
+        }
+        return newcurr;
+    }
+
+    public static void printArrayListMethod(ListNode head){
+        ListNode curr= head;
+
+        while(curr != null){
+            System.out.print(curr.data+" ");
+            curr=curr.next;
+        }
+    }
     
     
     public static void main(String[] args){
@@ -107,5 +137,9 @@ class SortingTheList{
         
         head = sort(head);
         print(head);
+        System.out.println();
+        System.out.println("Sorting Using ArrayList :");
+
+        printArrayListMethod(head);
     }
 }
