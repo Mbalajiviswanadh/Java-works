@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Three3Sum",
+      "request": "launch",
+      "mainClass": "Three3Sum",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "BackspaceStringCompare",
       "request": "launch",
       "mainClass": "BackspaceStringCompare",
