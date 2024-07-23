@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SortingTheList",
+      "request": "launch",
+      "mainClass": "SortingTheList",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "SortList",
+      "request": "launch",
+      "mainClass": "SortList",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Three3Sum",
       "request": "launch",
       "mainClass": "Three3Sum",
