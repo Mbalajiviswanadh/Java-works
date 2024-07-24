@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubArray_Sum",
+      "request": "launch",
+      "mainClass": "SubArray_Sum",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "SortingTheList",
       "request": "launch",
       "mainClass": "SortingTheList",
