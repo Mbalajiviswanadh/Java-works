@@ -59,12 +59,12 @@ class Solution {
 
         Arrays.sort(nums);
 
-        for(int i=0;i<nums.length-1;i++){
+        for(int i=0;i<nums.length;i++){
 
             if(i>0 && nums[i]==nums[i-1])
             continue;
 
-            for(int j=i+1;j<nums.length-1;j++){
+            for(int j=i+1;j<nums.length;j++){
 
                 if(j > i + 1 && nums[j] == nums[j - 1])
                 continue;
@@ -73,13 +73,13 @@ class Solution {
                 int b=nums.length-1;
 
                 while(a<b){
-                    long sum = nums[i]+nums[j]+nums[a]+nums[b];
+                    long sum = (long) nums[i]+nums[j]+nums[a]+nums[b];
 
                     if(sum==target){
                         ans.add(Arrays.asList(nums[i], nums[j], nums[a], nums[b]));
+
                         a++;
                         b--;
-
                         while(a<b && nums[a]==nums[a-1])
                         a++;
                         while(a<b && nums[b]==nums[b+1])
@@ -93,7 +93,6 @@ class Solution {
             }
         }
         return ans;
-
         
         // List<List<Integer>> res = new ArrayList<>();
         // if (nums == null || nums.length < 4) return res;
