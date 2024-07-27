@@ -12,7 +12,7 @@ import java.util.*;
 class Solution {
 
     static class ListNode {
-        ListNode nex;
+        ListNode next;
         int val;
 
         ListNode (int val){
