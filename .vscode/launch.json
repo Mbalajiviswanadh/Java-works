@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Countingstairs",
+      "request": "launch",
+      "mainClass": "Countingstairs",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "subarray_maxSum",
       "request": "launch",
       "mainClass": "subarray_maxSum",
