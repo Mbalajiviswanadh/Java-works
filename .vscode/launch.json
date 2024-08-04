@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Max_Sum_subarry_ofSize_k",
+      "request": "launch",
+      "mainClass": "Max_Sum_subarry_ofSize_k",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "MaxSumSubarrayofsizeK",
+      "request": "launch",
+      "mainClass": "MaxSumSubarrayofsizeK",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "GroupAnnagram",
       "request": "launch",
       "mainClass": "GroupAnnagram",
