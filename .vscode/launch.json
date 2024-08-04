@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GroupAnnagram",
+      "request": "launch",
+      "mainClass": "GroupAnnagram",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "GFG",
       "request": "launch",
       "mainClass": "GFG",
