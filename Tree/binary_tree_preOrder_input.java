@@ -17,12 +17,13 @@ class binary_tree_preOrder_input {
     
     public static class BinaryT{
         static int idx=-1;
-        public static TreeNode binarytree(List<Integer> nodes){
+        public static TreeNode binarytree(String nodes[]){
             idx++;
-            if(nodes.get(idx)==-1)
+            int n=Integer.parseInt(nodes[idx]);
+            if(n==-1)
             return null;
 
-            TreeNode newNode= new TreeNode(nodes.get(idx));
+            TreeNode newNode= new TreeNode(n);
 
             newNode.left=binarytree(nodes);
             newNode.right=binarytree(nodes);
@@ -31,29 +32,32 @@ class binary_tree_preOrder_input {
         }
     }
 
+    public static void print_preOrder(TreeNode root){
+        if(root==null)
+        return;
+        System.out.print(root.data+" ");
 
+        print_preOrder(root.left);
+        print_preOrder(root.right);
+    }
+
+    public static void print_inOrder(TreeNode root){
+        if(root ==null)
+        return;
+
+        print_inOrder(root.left);
+        System.out.print(root.data+" ");
+        print_inOrder(root.right);
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        List<Integer> nodes = new ArrayList<>();
-        while(true){
-            
-            String i=sc.nextLine();
-            if(i.isEmpty())
-            break;
+        String nodes[]= sc.nextLine().split(" ");
+        BinaryT bt= new BinaryT();
+       TreeNode res = bt.binarytree(nodes);
 
-
-            int data=Integer.parseInt(i);
-            nodes.add(data);
-        }
-
-        BinaryT bt=new BinaryT();
-        
-        TreeNode res =bt.binarytree(nodes);
-
-        System.out.println(res);
-
-
-        sc.close();
+       print_preOrder(res);
+       System.out.println();
+       print_inOrder(res);        
     }
 }
