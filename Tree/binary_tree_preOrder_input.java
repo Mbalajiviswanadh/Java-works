@@ -50,6 +50,15 @@ class binary_tree_preOrder_input {
         print_inOrder(root.right);
     }
 
+    public static void print_postOrder(TreeNode root){
+        if(root ==null)
+        return;
+
+        print_postOrder(root.left);
+        print_postOrder(root.right);
+        System.out.print(root.data+" ");
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nodes[]= sc.nextLine().split(" ");
@@ -58,6 +67,9 @@ class binary_tree_preOrder_input {
 
        print_preOrder(res);
        System.out.println();
-       print_inOrder(res);        
+       print_inOrder(res);   
+       System.out.println();
+       print_postOrder(res);     
+
     }
 }

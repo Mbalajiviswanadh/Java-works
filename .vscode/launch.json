@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "binary_tree_preOrder_input",
+      "request": "launch",
+      "mainClass": "Tree.binary_tree_preOrder_input",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Max_Sum_subarry_ofSize_k",
       "request": "launch",
       "mainClass": "Max_Sum_subarry_ofSize_k",
