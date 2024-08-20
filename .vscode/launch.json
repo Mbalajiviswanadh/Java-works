@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumOfNodes",
+      "request": "launch",
+      "mainClass": "Tree.SumOfNodes",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Count_ofNodes",
       "request": "launch",
       "mainClass": "Tree.Count_ofNodes",
