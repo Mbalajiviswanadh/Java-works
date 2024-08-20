@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Diamater",
+      "request": "launch",
+      "mainClass": "Tree.Diamater",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Height_OfTree",
       "request": "launch",
       "mainClass": "Tree.Height_OfTree",
