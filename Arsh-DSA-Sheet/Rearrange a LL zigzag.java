@@ -2,6 +2,15 @@
 import java.util.*;
 
 class Solution {
+    static Node head;
+    static class Node{
+        int data;
+        Node next;
+        Node(int data){
+            this.data=data;
+            this.next=null;
+        }
+    }
     Node zigZag(Node head) {
         // add code here.
         
