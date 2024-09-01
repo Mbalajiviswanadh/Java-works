@@ -1,4 +1,3 @@
-package GCD_or_HCF_of_two_Strings;
 
 import java.util.*;
 class Solution {
