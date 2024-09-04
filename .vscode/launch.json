@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "HackerEarth.Main",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Diamater",
       "request": "launch",
       "mainClass": "Tree.Diamater",
