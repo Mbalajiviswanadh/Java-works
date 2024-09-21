@@ -1,5 +1,5 @@
 import java.util.*;
-public class Solution {
+class Solution {
     public String simplifyPath(String path) {
         Stack<String> stack = new Stack<>();
 
@@ -31,6 +31,4 @@ public class Solution {
         return "/";
         
     }
-} Simplify Path {
-    
 }
