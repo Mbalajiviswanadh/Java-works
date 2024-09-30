@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "palin",
+      "request": "launch",
+      "mainClass": "TCS_TRANING.palin",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "palindrom",
+      "request": "launch",
+      "mainClass": "TCS_TRANING.palindrom",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "TCS_TRANING.Main",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "HackerEarth.Main",
