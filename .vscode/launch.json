@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "TCS_TRANING.Previous_Questions.Main",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "palin",
       "request": "launch",
       "mainClass": "TCS_TRANING.palin",
