@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Replacing_Chars",
+      "request": "launch",
+      "mainClass": "TCS_TRANING.Previous_Questions.Replacing_Chars",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "TCS_TRANING.Previous_Questions.main",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "TCS_TRANING.Previous_Questions.Main",
