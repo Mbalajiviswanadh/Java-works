@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Avg_and_Sum",
+      "request": "launch",
+      "mainClass": "TCS_TRANING.OCT_3_paper_codes.Avg_and_Sum",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Replacing_Chars",
       "request": "launch",
       "mainClass": "TCS_TRANING.Previous_Questions.Replacing_Chars",
