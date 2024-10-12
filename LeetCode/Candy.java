@@ -45,5 +45,6 @@ class Candy{
         }
 
         System.err.println(numOfCandies(rating));
+        System.out.println("ANSWER");
     }
 }
