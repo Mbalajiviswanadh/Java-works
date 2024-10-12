@@ -32,4 +32,18 @@ class Candy{
         }
         return sum;
     }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n=sc.nextInt();
+
+        int rating[]= new int[n];
+
+        for(int i=0;i<n;i++){
+            rating[i]=sc.nextInt();
+        }
+
+        System.err.println(numOfCandies(rating));
+    }
 }
