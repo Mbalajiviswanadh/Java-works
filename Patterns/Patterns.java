@@ -2,7 +2,7 @@ package Patterns;
 
 import java.util.*;
 
-// pattens
+// pattens ----> checking
 class main{
     
     static void pattern1(int n){
