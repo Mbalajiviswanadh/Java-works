@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Priority_Queues",
+      "request": "launch",
+      "mainClass": "Priority_Queues",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Avg_and_Sum",
       "request": "launch",
       "mainClass": "TCS_TRANING.OCT_3_paper_codes.Avg_and_Sum",
