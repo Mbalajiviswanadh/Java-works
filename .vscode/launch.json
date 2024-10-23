@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Allsubstring",
+      "request": "launch",
+      "mainClass": "SubString.Allsubstring",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "ALlsubstrings",
+      "request": "launch",
+      "mainClass": "SubString.ALlsubstrings",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "ALlsubstrings",
+      "request": "launch",
+      "mainClass": "ALlsubstrings",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "AllSubStrings",
+      "request": "launch",
+      "mainClass": "AllSubStrings",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
+      "name": "all_sub_string",
+      "request": "launch",
+      "mainClass": "all_sub_string",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Priority_Queues",
       "request": "launch",
       "mainClass": "Priority_Queues",
