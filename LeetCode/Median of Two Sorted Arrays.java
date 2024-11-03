@@ -16,7 +16,7 @@ class MedianOfTwoSortedArrays{
         
         while(i<n1 && j<n2){
             if(nums1[i]<nums2[j])
-            res[idx++]=nums1[i++]
+            res[idx++]=nums1[i++];
             else
             res[idx++]=nums2[j++];
             
