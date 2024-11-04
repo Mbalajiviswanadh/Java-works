@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Solution {
+class Solution {
 
     public static boolean isValid(ArrayList<Integer> arr, int n, int m , int mid){
 
