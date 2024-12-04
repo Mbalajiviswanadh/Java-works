@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RateInMaze",
+      "request": "launch",
+      "mainClass": "RateInMaze",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "Allsubstring",
       "request": "launch",
       "mainClass": "SubString.Allsubstring",
