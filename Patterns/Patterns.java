@@ -1,7 +1,6 @@
 package Patterns;
 
 import java.util.*;
-
 // pattens ----> checking
 class main{
     

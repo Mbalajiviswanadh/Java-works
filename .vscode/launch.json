@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "Patterns.main",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "RateInMaze",
       "request": "launch",
       "mainClass": "RateInMaze",
