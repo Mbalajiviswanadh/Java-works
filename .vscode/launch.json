@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestClass",
+      "request": "launch",
+      "mainClass": "HackerEarth.TestClass",
+      "projectName": "java_cc950687"
+    },
+    {
+      "type": "java",
       "name": "main",
       "request": "launch",
       "mainClass": "Patterns.main",

@@ -23,5 +23,6 @@
   },
   "accessibility.signals.lineHasFoldedArea": {
     "sound": "off"
-  }
+  },
+  "editor.formatOnSave": true
 }
